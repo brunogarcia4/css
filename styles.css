@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F9E79F;
+    color: #512E5F;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #512E5F, #8E44AD);
+    color: #F9E79F;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: #F9E79F;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #D2B4DE;
+}
+
+.hero {
+    background: #8E44AD;
+    color: #FDFEFE;
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+main {
+    padding: 20px;
+}
+
+.story {
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 2rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn {
+    background: #8E44AD;
+    color: #FDFEFE;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: #7D3C98;
+}
+
+footer {
+    background: #512E5F;
+    color: #FDFEFE;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.history-intro, .the-maestro, .the-atelier, .legacy {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.history-intro img, .the-maestro img, .the-atelier img, .legacy img {
+    width: 189px;
+    height: 189px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.history-section h2 {
+    color: #512E5F;
+    margin-bottom: 1rem;
+}
+
+.history-section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #FDFEFE;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.history-section img {
+    width: 189px;
+    height: 189px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    width: 100%;
+    cursor: pointer;
+}
